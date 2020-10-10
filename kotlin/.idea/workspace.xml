@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eba87fca-6536-4364-a0fe-d3c8dabc1868" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20.09.3rd/study9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/Study_20.09.3rd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/BreakBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/CondOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/DoWhileBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/ForBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/SwitchBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/SwitchBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/out/production/Study_200911/Study1/WhileBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/BreakBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/CondOp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/ContinueBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/DoWhileBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/ForBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/InfinityLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/SwitchBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/SwitchBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study_20.09.3rd/src/Study1/WhileBasic.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hktLV920hOEb0UkeW3FRj4iwo9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eba87fca-6536-4364-a0fe-d3c8dabc1868" name="Default Changelist" comment="" />
+      <created>1600566861263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600566861263</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1049" y="244" key="FileChooserDialogImpl" timestamp="1600567060385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1049" y="244" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600567060385" />
+    <state x="770" y="147" key="SettingsEditor" timestamp="1600566916812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="770" y="147" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600566916812" />
+    <state x="648" y="113" key="new project wizard" timestamp="1600567095300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="648" y="113" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600567095300" />
+  </component>
+</project>

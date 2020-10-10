@@ -1,0 +1,7 @@
+class NullPointer {
+    public static void main(String[] args) {
+        String str=null;
+        System.out.println(str);        //print null
+        int len=str.length();           //exception occured
+    }
+}
