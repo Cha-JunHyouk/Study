@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c6aaaf4-f5cb-4faf-b21c-5412e2c66031" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AnonymousComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EnumConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EnumParamConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InClassInst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InnerEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceBaseConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MemberInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NonSafeConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SafeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StsticNested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseAnonymousInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseLocalInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseMemberInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Varargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/ConditionalExpressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/ForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/NullableValuesAndNullChecks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/Ranges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/StringTemplates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/TypeChcksAndAutomaticCasts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/Variable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/WhenExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/WhileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinstudy/basic.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1jREozHyyiV6iMQDwl1BHPpmcto" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Kotlin.RangesKt">
+    <configuration name="ForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="2010.5th" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstudy.ForLoopKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="2010.5th" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstudy.RangesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeChcksAndAutomaticCastsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="2010.5th" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstudy.TypeChcksAndAutomaticCastsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="2010.5th" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstudy.WhenExpressionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="2010.5th" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstudy.WhileLoopKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.RangesKt" />
+        <item itemvalue="Kotlin.WhenExpressionKt" />
+        <item itemvalue="Kotlin.WhileLoopKt" />
+        <item itemvalue="Kotlin.ForLoopKt" />
+        <item itemvalue="Kotlin.TypeChcksAndAutomaticCastsKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c6aaaf4-f5cb-4faf-b21c-5412e2c66031" name="Default Changelist" comment="" />
+      <created>1603758685157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603758685157</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1095" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1603849793443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1095" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603849793443" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1603942286360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603942286360" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1603942286360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603942286360" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1603942286360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603942286360" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1603942286360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603942286360" />
+  </component>
+</project>

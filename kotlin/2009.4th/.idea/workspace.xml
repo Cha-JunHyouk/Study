@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e411d4d-0989-4154-b9a2-3fe29d83c7a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4rd/src/design_patterns/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4rd/src/design_patterns/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/BankAccounrUnilD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/ClasspathPrectice/ClasspathPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/FirstStringIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/LocalVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/Method2Param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/MethodDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/MethodReturns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/ReculFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/2009.4th/src/WhatYourName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/JUnittest/src/Math/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/JUnittest/src/Math/Iftest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/JUnittest/src/Test/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/JUnittest/src/Test/IftestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kotlin.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1htimTEKYBHPXZxxEgseyPZd9Zg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e411d4d-0989-4154-b9a2-3fe29d83c7a1" name="Default Changelist" comment="" />
+      <created>1600836948309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600836948309</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
