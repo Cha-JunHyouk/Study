@@ -1,3 +1,5 @@
+package senior;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -21,6 +23,7 @@ public class MyDB {
 			+ "gender=?, address=?,name=?,phonenumber=?,star=? "
 			+ "where id = ?";
 	ResultSet rs;
+	
 	public boolean change(Remeber_jaegu jaegu){
 		boolean flag = false;//true:변경성공,false:변경실패
 		try {
@@ -96,10 +99,12 @@ public class MyDB {
 				"입력된 정보가 삭제되지 않았습니다.");
 		}
 	}
-	
+	public MyDB() {
+		
+	}//생성자-생성자의 오버로딩
 	public MyDB(InsertDataWindow idw) {
 		this.idw = idw;//생성된 윈도우 객체를 받는다.
-	}
+	}//생성자
 	public void insert(Remeber_jaegu r) {
 		try {
 			pstmt = conn.prepareStatement(insert);
