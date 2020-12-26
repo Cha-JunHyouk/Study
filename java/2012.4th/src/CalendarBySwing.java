@@ -1,21 +1,9 @@
-import java.awt.Choice;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridLayout;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.*;
+import java.awt.event.*;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 public class CalendarBySwing extends JFrame implements WindowListener, ActionListener, ItemListener{
 	private Choice chyear, chmonth;
@@ -30,9 +18,12 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 	private Calendar ca = Calendar.getInstance();
 	private Dimension dimen, dimen1;
 	private int xpos, ypos;
+	SalesManagement ss;
 
-	public CalendarBySwing(){
+	public CalendarBySwing(){}
 
+	public CalendarBySwing(SalesManagement salesManagement) {
+		this.ss=ss;
 		setTitle("달력 - 오늘:"+ca.get(Calendar.YEAR)+"/"+(ca.get(Calendar.MONTH)+1)+"/"+ca.get(Calendar.DATE));
 		setSize(550,500);
 		dimen = Toolkit.getDefaultToolkit().getScreenSize();
@@ -48,6 +39,8 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 //		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		init();
+
+
 	}
 
 	public void actionPerformed(ActionEvent arg0) {
@@ -55,7 +48,10 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 		String month = chmonth.getSelectedItem();
 		JButton btn = (JButton)arg0.getSource();
 		String day = btn.getText();
-		System.out.println(year+","+month+","+day);
+//		System.out.println(year+","+month+","+day);
+		ss.input.setText(year+","+month+","+day);
+		this.dispose();
+
 
 
 		//월에 따라서 일을 채운다. 시작

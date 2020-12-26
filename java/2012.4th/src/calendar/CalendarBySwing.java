@@ -1,3 +1,5 @@
+package calendar;
+
 import java.awt.Choice;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -30,11 +32,31 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 	private Calendar ca = Calendar.getInstance();
 	private Dimension dimen, dimen1;
 	private int xpos, ypos;
-
-	public CalendarBySwing(){
-
+	ItemManagement im;
+	SalesSystem ss;
+	
+	public CalendarBySwing(SalesSystem ss) {
+		this.ss = ss;
 		setTitle("달력 - 오늘:"+ca.get(Calendar.YEAR)+"/"+(ca.get(Calendar.MONTH)+1)+"/"+ca.get(Calendar.DATE));
-		setSize(550,500);
+		setSize(400,400);
+		dimen = Toolkit.getDefaultToolkit().getScreenSize();
+		dimen1 = this.getSize();
+		xpos = (int)(dimen.getWidth()/2 - dimen1.getWidth()/2);
+		ypos = (int)(dimen.getHeight()/2 - dimen1.getHeight()/2);
+		setLocation(xpos, ypos);//화면의 가운데에 출력
+		setResizable(false);
+		setVisible(true);
+		chyear = new Choice(); chmonth = new Choice();
+		yLabel = new JLabel("년"); mLabel = new JLabel("월");
+//		addWindowListener(this);
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+//		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		init();
+	}
+	public CalendarBySwing(ItemManagement im){
+		this.im = im;
+		setTitle("달력 - 오늘:"+ca.get(Calendar.YEAR)+"/"+(ca.get(Calendar.MONTH)+1)+"/"+ca.get(Calendar.DATE));
+		setSize(400,400);
 		dimen = Toolkit.getDefaultToolkit().getScreenSize();
 		dimen1 = this.getSize();
 		xpos = (int)(dimen.getWidth()/2 - dimen1.getWidth()/2);
@@ -55,12 +77,13 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 		String month = chmonth.getSelectedItem();
 		JButton btn = (JButton)arg0.getSource();
 		String day = btn.getText();
-		System.out.println(year+","+month+","+day);
-
-
+//		System.out.println(year+","+month+","+day);
+		im.txt[0].setText(year+","+month+","+day);
+		ss.txt.setText(year+","+month+","+day);
+		this.dispose();//메모리에서 제거
 		//월에 따라서 일을 채운다. 시작
 		//월에 따라서 일을 채운다. 끝
-
+		
 	}
 
 	public void init(){
@@ -70,7 +93,7 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 
 	public void select(){
 		JPanel panel = new JPanel(grid);//7행 7열의 그리드레이아웃
-		for(int i=2030; i>=1950;i--){
+		for(int i=2020; i>=1990;i--){
 			chyear.add(String.valueOf(i));
 		}
 		for(int i=1; i <=12; i++){
@@ -129,7 +152,7 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 			days[i-1].setBackground(Color.WHITE);
 			if(today_month.equals(String.valueOf(month))){//오늘이 속한 달과 같은 달인 경우
 				if(today.equals(days[i-1].getText())){//버튼의 날짜와 오늘날짜가 일치하는 경우
-					days[i-1].setBackground(Color.CYAN);//버튼의 배경색 지정
+					days[i-1].setBackground(Color.ORANGE);//버튼의 배경색 지정
 				}
 			}
 		}
@@ -162,9 +185,9 @@ public class CalendarBySwing extends JFrame implements WindowListener, ActionLis
 		}
 	}
 
-	public static void main(String[] args) {
-		new CalendarBySwing();
-	}
+//	public static void main(String[] args) {
+//		new CalendarBySwing();
+//	}
 }
 
 
