@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.myMapper">
+	<select id="getAllBBS" resultType="model.BBS">
+		select * from remember_bbs
+	</select>
+	<select id="getMaxSeqno" resultType="Integer">
+		select max(seqno) from remember_bbs
+	</select>
+	<insert id="insertBBS" parameterType="model.BBS">
+		insert into remember_bbs values(#{seqno},#{title},#{content},
+				#{id},#{bbs_date})
+	</insert>
+</mapper>
