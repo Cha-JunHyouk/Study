@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.myMapper">
+	<select id="getItembyPage" parameterType="Integer" 
+								resultType="model.Item">
+		select pid,name,price,p_date from
+		(select rownum rn, pid,name,price,p_date from
+			(select pid,name,price,p_date from remember_item)) 
+		where rn > ((#{no}-1) * 5) and
+				rn <![CDATA[<]]> ((#{no}-1) * 5 + 6)
+	</select>
+	<select id="getItem" parameterType="Integer" resultType="model.Item">
+		select * from remember_item where pid=#{pid}
+	</select>
+	<select id="getAllItemsCount" resultType="Integer">
+		select count(*) from remember_item
+	</select>
+	<select id="getAllItems" resultType="model.Item">
+		select * from remember_item
+	</select>
+	<insert id="putItem" parameterType="model.Item">
+		insert into remember_item values(#{pid},#{name},#{price},
+				#{p_date},#{intro})
+	</insert>
+	<select id="getMaxPid" resultType="Integer">
+		select max(pid) from remember_item
+	</select>
+	<select id="getBBSbyPage" parameterType="Integer" resultType="model.BBS">
+		select seqno,title,id,bbs_date from
+		(select rownum rn, seqno, title, id, bbs_date from
+			(select seqno,title,id,bbs_date from remember_bbs
+				order by seqno desc)) 
+		where rn > ((#{no}-1) * 5) and
+				rn <![CDATA[<]]> ((#{no}-1) * 5 + 6)
+	</select>
+	<select id="getTotalCount" resultType="Integer">
+		select count(*) from remember_bbs	
+	</select>
+	<select id="getBBS" parameterType="Integer" resultType="model.BBS">
+		select * from remember_bbs where seqno = #{seqno}	
+	</select>
+	<select id="getAllBBS" resultType="model.BBS">
+		select * from remember_bbs order by seqno desc
+	</select>
+	<select id="getMaxSeqno" resultType="Integer">
+		select max(seqno) from remember_bbs
+	</select>
+	<insert id="insertBBS" parameterType="model.BBS">
+		insert into remember_bbs values(#{seqno},#{title},#{content},
+				#{id},#{bbs_date})
+	</insert>
+</mapper>
