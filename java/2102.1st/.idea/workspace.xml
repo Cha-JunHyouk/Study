@@ -58,5 +58,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="138" key="new project wizard" timestamp="1613265057850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="432" y="138" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613265057850" />
   </component>
 </project>
